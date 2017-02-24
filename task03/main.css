@@ -1,0 +1,58 @@
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after{
+    clear: both;
+}
+
+div	{
+	padding: 20px;
+	background-color: #fff;
+	border: 1px #999 solid;
+}
+
+div + div {
+	margin-left: 20px;
+}
+
+.container {
+	background-color: #eee;
+	border: 1px #999 solid;
+}
+
+.team-name {
+	width: 158px;
+	height: auto;
+	background-color: #fff;
+	float: left;
+}
+
+.team-name img {
+	width: 80px;
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+
+.team-name p {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 0px;
+}
+
+.content {
+	width: calc(100% - 402px);
+	float: left;
+}
+
+.personal {
+	width: 78px;
+	float: left;
+}
+
+.personal img {
+	width: 80px;
+}
