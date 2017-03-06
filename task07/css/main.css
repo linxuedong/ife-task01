@@ -12,6 +12,7 @@ body {
 	width: 100%;
 	min-width: 1280px;
 }
+hr {
 	width: 32px;
 	margin: 0 auto;
 }
@@ -169,9 +170,6 @@ header ul li a:hover {
 	height: 340px;
 	background-color: rgba(170,52,51,0.2);
 }
-.location-container hr {
-	border: 1px solid #ffffff;
-}
 .location-container p {
 	padding: 20px 0 52px 0;
 }
@@ -277,9 +275,7 @@ header ul li a:hover {
 	width: calc(33.333333%);
 	float: left;
 }
-.life-container hr{
-	margin: 22px auto;
-}
+
 .life-container .bg-img {
 	width: 100%;
 	height: 516px;
@@ -294,18 +290,14 @@ header ul li a:hover {
 	height: 516px;
 	background-color: #e74f4d;
 }
-#life .left hr{
-	border: 1px solid #ffffff;
-}
+
 #life .left .border {
 	border: 1px solid #ffffff;
 }
 #life .left .border a{
 	color: #ffffff;
 }
-#life .mid hr{
-	border: 1px solid #e0e0e0;
-}
+
 #life .mid .border a{
 	color: #e74f4d;
 }
@@ -322,9 +314,7 @@ header ul li a:hover {
 	margin-top: 100px;
 	color: #323333;
 }
-.join-us hr {
-	border: 1px solid #e74f4d;
-}
+
 .join-us .top p {
 	color: #aaaaaa;
 	margin-bottom: 105px;
