@@ -1,0 +1,166 @@
+body {
+  background-color: #eeeeee;
+}
+
+
+/* 导航 */
+
+nav {
+  background-color: #333333;
+  height: 50px;
+}
+
+nav img {
+  height: 50px;
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  float: left;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #ffffff;
+}
+
+nav ul li a:hover {
+  color: #cccccc;
+}
+
+
+/* 文章边框 */
+
+article {
+  width: 95%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+aside {
+  width: 95%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+/* 作者 二级标题 */
+
+article h3, article .author {
+  color: #aaaaaa;
+}
+
+article .author {
+  text-indent: 0rem;
+}
+
+p {
+  text-indent: 2rem;
+}
+
+article ul li {
+  list-style: none;
+}
+
+article ul.img-list li div {
+  display: inline-block;
+  border: 1px solid #cccccc;
+}
+
+.img-list img {
+  height: 100px;
+}
+
+
+/* 表格 */
+
+table {
+  width: 100%;
+  margin: 50px auto;
+  border-collapse: collapse;
+  border: 1px solid #cccccc;
+}
+
+table tr th {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+table tr td, table tr th {
+  border-left: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+
+table tr.total {
+  background-color: #cccccc;
+}
+
+
+/* aside */
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.clearfix:before {}
+
+aside h2 {
+  border-left: 2px solid #cccccc;
+  padding-left: 10px;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  padding: 5px;
+}
+
+form label {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  float: left;
+}
+
+form input {
+  /*display: inline-block;*/
+  /*width: 50%;*/
+  text-align: left: 0;
+  float: left;
+}
+
+form span.prompt {
+  margin-left: 40%;
+  color: #cccccc;
+  font-size: 12px;
+}
+
+form span {
+  float: left;
+}
+
+form textarea {
+  cols: 100px;
+  rows: 10px;
+}
+
+form input[name=submit] {
+  display: block;
+  float: left;
+  background-color: #2332D9;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 16px;
+}
